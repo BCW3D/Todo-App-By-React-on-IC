@@ -1,0 +1,24 @@
+.form {
+  display: block;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 15px;
+  border-radius: 5px;
+  opacity: 0.9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card_holder {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .card_holder {
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 10px auto 10px auto !important;
+  }
+}
